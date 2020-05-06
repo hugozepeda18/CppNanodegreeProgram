@@ -1,0 +1,21 @@
+{
+    "env": {
+        "myDefaultIncludePath":["${workspaceFolder}","${workspaceFolder}/include"],
+        "myCompilerPath": "C:/MinGW/bin/g++"
+    },
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": 
+                ["${myDefaultIncludePath}","/another/path"]
+            ,
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
