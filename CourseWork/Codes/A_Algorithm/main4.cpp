@@ -36,7 +36,7 @@ vector<State> ParseLine(string line) {
 
 vector<vector<State>> ReadBoardFile(string path) {
   ifstream myfile (path);
-  vector<vector<State>> board{};
+  vector<vector<State> >board{};
   if (myfile) {
     string line;
     while (getline(myfile, line)) {
